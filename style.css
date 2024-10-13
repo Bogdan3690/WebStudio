@@ -4,6 +4,8 @@
     --main-background-color: #FFF;
     --secondary-background-color: #2F303A;
     --text-color: #212121;
+    --secondary-text-color: #FFFFFF99;
+    --theird-background-color: #F5F4FA;
 }
 
 
@@ -19,7 +21,70 @@ a:hover,a:focus{
     color: var(--title-color);
 }
 
+.button{
+    background-color: var(--title-color);
+    color: var(--main-background-color);
+    border: transparent;
+    /* ? */
+    text-align: center;
+    /* ? */
+}
+
+.buttons{
+    color: var(--text-color);
+    border: transparent;
+    text-align: center;
+    background-color: var(--theird-background-color);
+}
+
+.buttons:hover,.buttons:focus{
+    background-color: var(--title-color);
+    color: var(--main-background-color);
+}
+
+.team{
+    background-color: var(--theird-background-color);
+}
+
+h1{
+    text-align: center;
+    color: var(--main-background-color);
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+/* ? */
+ol{
+    list-style: none;
+    text-decoration: none; 
+}
+/* ? */
+.nav{
+    text-align: center;
+}
+
 .background{
-    text-transform: ;
     background-color: var(--secondary-background-color);
+    width: 1300px;
+    height: 160px;
+}
+/* Footer */
+.footer{
+    background-color: var(--secondary-background-color);
+}
+
+.address{
+    color: var(--main-background-color);
+}
+
+.mail{
+    color: var(--secondary-text-color)
+}
+
+.phone-number{
+    /* ? */
+    color: var(--secondary-text-color)
+    /* ? */
 }
