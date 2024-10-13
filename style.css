@@ -1,0 +1,25 @@
+:root{
+    --title-color: #2196F3;
+    --secondary-title-color: #212121;
+    --main-background-color: #FFF;
+    --secondary-background-color: #2F303A;
+    --text-color: #212121;
+}
+
+
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover,a:focus{
+    color: var(--title-color);
+}
+
+.background{
+    text-transform: ;
+    background-color: var(--secondary-background-color);
+}
