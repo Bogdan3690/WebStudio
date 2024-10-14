@@ -55,12 +55,12 @@ ul{
     list-style: none;
     text-decoration: none;
 }
-/* ? */
+
 ol{
     list-style: none;
     text-decoration: none; 
 }
-/* ? */
+
 .nav{
     text-align: center;
 }
@@ -84,7 +84,5 @@ ol{
 }
 
 .phone-number{
-    /* ? */
     color: var(--secondary-text-color)
-    /* ? */
 }
