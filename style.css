@@ -5,11 +5,20 @@
     --secondary-background-color: #2F303A;
     --text-color: #212121;
     --secondary-text-color: #FFFFFF99;
+    --theird-text-color: #757575; 
     --theird-background-color: #F5F4FA;
 }
 
 
+
 /* Header */
+.logo{
+    font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+}
+
 .logo span{
     color: var(--title-color);
 }
@@ -24,11 +33,21 @@ a:hover,a:focus{
     color: var(--title-color);
 }
 
+body{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
 .button{
     background-color: var(--title-color);
     color: var(--main-background-color);
     border: transparent;
+    border-radius: 4px;
     text-align: center;
+font-size: 16px;
+font-weight: 700;
 }
 
 .buttons{
@@ -47,15 +66,30 @@ a:hover,a:focus{
     background-color: var(--theird-background-color);
 }
 
+.team p{
+    color: var(--theird-text-color);
+}
+
 h1{
     text-align: center;
     color: var(--main-background-color);
+font-weight: 900;
+font-size: 44px;
 }
 
 ul{
     list-style: none;
     text-decoration: none;
 }
+
+ol p{
+    color: var(--theird-text-color);
+}
+
+ul p{
+    color: var(--theird-text-color);
+}
+
 
 ol{
     list-style: none;
@@ -74,16 +108,29 @@ ol{
 /* Footer */
 .footer{
     background-color: var(--secondary-background-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
 }
 
 .address{
     color: var(--main-background-color);
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
 }
 
 .mail{
     color: var(--secondary-text-color)
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
 }
 
 .phone-number{
     color: var(--secondary-text-color)
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
 }
