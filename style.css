@@ -12,6 +12,7 @@
 
 
 /* Header */
+/* Title */
 .logo{
     font-family: Raleway;
 font-size: 26px;
@@ -22,7 +23,7 @@ font-weight: 700;
 .logo span{
     color: var(--title-color);
 }
-
+/* Link */
 a{
     list-style: none;
     text-decoration: none;
@@ -32,22 +33,22 @@ a{
 a:hover,a:focus{
     color: var(--title-color);
 }
-
+/* Main */
 body{
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
 }
-
+/* Buttons */
 .button{
     background-color: var(--title-color);
     color: var(--main-background-color);
     border: transparent;
     border-radius: 4px;
     text-align: center;
-font-size: 16px;
-font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .buttons{
@@ -61,7 +62,7 @@ font-weight: 700;
     background-color: var(--title-color);
     color: var(--main-background-color);
 }
-
+/* List Team */
 .team{
     background-color: var(--theird-background-color);
 }
@@ -69,14 +70,14 @@ font-weight: 700;
 .team p{
     color: var(--theird-text-color);
 }
-
+/* H1 */
 h1{
     text-align: center;
     color: var(--main-background-color);
 font-weight: 900;
 font-size: 44px;
 }
-
+/* List */
 ul{
     list-style: none;
     text-decoration: none;
