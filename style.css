@@ -9,7 +9,10 @@
 }
 
 
-
+/* Header */
+.logo span{
+    color: var(--title-color);
+}
 
 a{
     list-style: none;
@@ -25,9 +28,7 @@ a:hover,a:focus{
     background-color: var(--title-color);
     color: var(--main-background-color);
     border: transparent;
-    /* ? */
     text-align: center;
-    /* ? */
 }
 
 .buttons{
