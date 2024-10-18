@@ -12,28 +12,35 @@
 
 
 /* Header */
-/* Title */
+/* Title/Link/Logo */
 .logo{
     font-family: Raleway;
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
+color: var(--text-color);
 }
 
 .logo span{
     color: var(--title-color);
 }
-/* Link */
-a{
+
+ .logo{
+    list-style: none;
+    text-decoration: none;
+ }
+
+/* Links */
+.link{
     list-style: none;
     text-decoration: none;
     color: var(--text-color);
 }
 
-a:hover,a:focus{
+.link:hover,.link:focus{
     color: var(--title-color);
 }
-/* Main */
+/* Body */
 body{
     font-family: Roboto;
     font-size: 14px;
@@ -62,6 +69,7 @@ body{
     background-color: var(--title-color);
     color: var(--main-background-color);
 }
+
 /* List Team */
 .team{
     background-color: var(--theird-background-color);
@@ -70,14 +78,25 @@ body{
 .team p{
     color: var(--theird-text-color);
 }
-/* H1 */
+/* Main Title Studio */
 h1{
     text-align: center;
     color: var(--main-background-color);
-font-weight: 900;
-font-size: 44px;
+    font-weight: 900;
+    font-size: 44px;
 }
+
+.background{
+    background-color: var(--secondary-background-color);
+    width: 1300px;
+    height: 160px;
+}
+
 /* List */
+.nav{
+    text-align: center;
+}
+
 ul{
     list-style: none;
     text-decoration: none;
@@ -91,47 +110,28 @@ ul p{
     color: var(--theird-text-color);
 }
 
-
 ol{
     list-style: none;
     text-decoration: none; 
 }
 
-.nav{
-    text-align: center;
-}
-
-.background{
-    background-color: var(--secondary-background-color);
-    width: 1300px;
-    height: 160px;
-}
 /* Footer */
-.footer{
+footer{
     background-color: var(--secondary-background-color);
-    font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
+    color: var(--theird-text-color);
 }
 
-.address{
+footer .logo{
     color: var(--main-background-color);
-    font-family: Roboto;
-font-style: normal;
-font-weight: 400;
 }
 
-.mail{
-    color: var(--secondary-text-color)
-    font-family: Roboto;
-font-style: normal;
-font-weight: 400;
+footer .Kyiv{
+    color: var(--main-background-color);
 }
 
-.phone-number{
-    color: var(--secondary-text-color)
+.footer-address{
     font-family: Roboto;
-font-style: normal;
-font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
