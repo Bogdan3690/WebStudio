@@ -72,11 +72,11 @@ text-decoration: none;
     background-color: var(--theird-background-color);
 }
 
-.team p{
+.team-text{
     color: var(--theird-text-color);
 }
 /* Main Title Studio */
-h1{
+.main-title{
     text-align: center;
     color: var(--main-background-color);
     font-weight: 900;
@@ -94,12 +94,11 @@ h1{
     text-align: center;
 }
 
-ul{
+.serv-list{
     list-style: none;
     text-decoration: none;
 }
-
-ul p{
+.serv-list .serv-text{
     color: var(--theird-text-color);
 }
 
