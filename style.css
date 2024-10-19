@@ -10,13 +10,14 @@
 }
 
 
-
+/* Body */
 body{
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
 }
+
 /*Title/Link/Logo*/
 .logo{
     font-family: Raleway;
@@ -24,16 +25,13 @@ font-size: 26px;
 font-style: normal;
 font-weight: 700;
 color: var(--text-color);
+list-style: none;
+text-decoration: none;
 }
 
 .logo span{
     color: var(--title-color);
 }
-
- .logo{
-    list-style: none;
-    text-decoration: none;
- }
 
 /* Links */
 .link{
@@ -85,7 +83,7 @@ h1{
     font-size: 44px;
 }
 
-.background{
+.main-text{
     background-color: var(--secondary-background-color);
     width: 1300px;
     height: 160px;
@@ -101,17 +99,8 @@ ul{
     text-decoration: none;
 }
 
-ol p{
-    color: var(--theird-text-color);
-}
-
 ul p{
     color: var(--theird-text-color);
-}
-
-ol{
-    list-style: none;
-    text-decoration: none; 
 }
 
 /* Footer */
@@ -120,11 +109,7 @@ footer{
     color: var(--theird-text-color);
 }
 
-footer .logo{
-    color: var(--main-background-color);
-}
-
-footer .Kyiv{
+footer .logo,footer .Kyiv{
     color: var(--main-background-color);
 }
 
