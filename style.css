@@ -11,7 +11,12 @@
 
 
 
-/* Header */
+body{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
 /*Title/Link/Logo*/
 .logo{
     font-family: Raleway;
@@ -40,13 +45,7 @@ color: var(--text-color);
 .link:hover,.link:focus{
     color: var(--title-color);
 }
-/* Body */
-body{
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-}
+
 /* Buttons */
 .button{
     background-color: var(--title-color);
