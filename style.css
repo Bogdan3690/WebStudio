@@ -17,6 +17,32 @@ body{
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul,p,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid red 4px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*Title/Link/Logo*/
@@ -51,9 +77,9 @@ text-decoration: none;
     color: var(--main-background-color);
     border: transparent;
     border-radius: 4px;
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
+    margin-top: 40px;
 }
 
 .buttons{
@@ -68,9 +94,22 @@ text-decoration: none;
     color: var(--main-background-color);
 }
 
+.serv-section{
+    margin-bottom: 118px;
+}
+
+.what-we-do{
+    margin-bottom: 188px;
+}
+
 /* List Team */
 .team{
     background-color: var(--theird-background-color);
+    margin-bottom: 154px;
+}
+
+.our-team{
+    margin-bottom: 50px;
 }
 
 .team-text{
@@ -86,8 +125,12 @@ text-decoration: none;
 
 .main-text{
     background-color: var(--secondary-background-color);
-    width: 1300px;
-    height: 160px;
+    text-align: center;
+    width: 1600px;
+    height: 600px;
+    margin-top: 239px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* List */
