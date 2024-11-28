@@ -157,7 +157,10 @@ margin-right: 93px;
 
 /* List */
 .nav{
-    text-align: center;
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 94px;
 }
 
 .serv-list{
@@ -166,6 +169,18 @@ margin-right: 93px;
 }
 .serv-list .serv-text{
     color: var(--theird-text-color);
+}
+
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 154px;
+}
+
+.work-item{
+    flex-basis: calc((100% - 60px) / 3);
+    outline: 2px solid red;
 }
 
 /* Footer */
