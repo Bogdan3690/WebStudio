@@ -101,24 +101,33 @@ margin-right: 93px;
     font-size: 16px;
     font-weight: 700;
     margin-top: 40px;
+    width: 216px;
+    height: 50px;
+    letter-spacing: 0.96px;
 }
 
 .buttons{
     color: var(--text-color);
+    background-color: var(--theird-background-color);
     border: transparent;
     text-align: center;
-    background-color: var(--theird-background-color);
 }
 
 .buttons:hover,.buttons:focus{
     background-color: var(--title-color);
     color: var(--main-background-color);
 }
-
+/* Serv-Section */
 .serv-section{
     padding-bottom: 118px;
 }
 
+.serv-list{
+    display: flex;
+    gap: 30px;
+}
+
+/* What-we-do Section */
 .what-we-do{
     padding-bottom: 188px;
 }
@@ -127,10 +136,17 @@ margin-right: 93px;
     display: flex;
     gap: 30px;
 }
-/* List Team */
+
+/* Team List */
 .team .container{
     background-color: var(--theird-background-color);
     margin-bottom: 154px;
+}
+
+.team-section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
 
 .our-team{
@@ -138,9 +154,20 @@ margin-right: 93px;
 }
 
 .team-text{
-    color: var(--theird-text-color);
+    text-align: center;
 }
-/* Main Title Studio */
+
+.team-toptext{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team-undertext{
+    color: var(--theird-text-color);
+    margin-bottom: 30px;
+}
+
+/* Main Title/Text */
 .main-title{
     color: var(--main-background-color);
     font-weight: 900;
@@ -159,12 +186,13 @@ margin-right: 93px;
     padding-top: 200px;
 }
 
-/* List */
+/* Lists */
 .nav{
     display: flex; 
     justify-content: center;
     margin-bottom: 50px;
     margin-top: 94px;
+    gap: 8px;
 }
 
 .serv-list{
@@ -174,7 +202,7 @@ margin-right: 93px;
 .serv-list .serv-text{
     color: var(--theird-text-color);
 }
-
+/* Work Section */
 .work-list{
     display: flex;
     flex-wrap: wrap;
@@ -187,6 +215,18 @@ margin-right: 93px;
     outline: 2px solid red;
 }
 
+.work-text{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.work-toptext{
+    margin-top: 20px;
+}
+
+.work-undertext{
+    margin-bottom: 20px;
+}
 /* Footer */
 footer{
     background-color: var(--secondary-background-color);
