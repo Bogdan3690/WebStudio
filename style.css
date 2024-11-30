@@ -122,19 +122,19 @@ margin-right: 93px;
 .what-we-do{
     padding-bottom: 188px;
 }
+
+.what-we-do-list{
+    display: flex;
+    gap: 30px;
+}
 /* List Team */
 .team .container{
     background-color: var(--theird-background-color);
     margin-bottom: 154px;
-    display: flex;
-}
-
-.team-section{
-    display: flex;
 }
 
 .our-team{
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .team-text{
