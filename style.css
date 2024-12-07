@@ -127,6 +127,46 @@ margin-right: 93px;
     gap: 30px;
 }
 
+.icon-antenna::before{
+    display: block;
+    content: '';
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--main-background-color);
+    background-image: url(./img/img.studio/antenna.svg);
+}
+
+.icon-clock::before{
+    display: block;
+    content: '';
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--main-background-color);
+    background-image: url(./img/img.studio/clock.svg);
+}
+
+.icon-diagram::before{
+    display: block;
+    content: '';
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--main-background-color);
+    background-image: url(./img/img.studio/diagram.svg);
+}
+
+.icon-astronaut::before{
+    display: block;
+    content: '';
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--main-background-color);
+    background-image: url(./img/img.studio/astronaut.svg);
+}
+
 /* What-we-do Section */
 .what-we-do{
     padding-bottom: 188px;
