@@ -40,7 +40,6 @@ h2{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    outline: dashed blue 4px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -127,43 +126,27 @@ margin-right: 93px;
     gap: 30px;
 }
 
-.icon-antenna::before{
+.serv-item{
     display: block;
     content: '';
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: var(--main-background-color);
+}
+
+.icon-antenna::before{
     background-image: url(./img/img.studio/antenna.svg);
 }
 
 .icon-clock::before{
-    display: block;
-    content: '';
-    height: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: var(--main-background-color);
     background-image: url(./img/img.studio/clock.svg);
 }
 
 .icon-diagram::before{
-    display: block;
-    content: '';
-    height: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: var(--main-background-color);
     background-image: url(./img/img.studio/diagram.svg);
 }
 
 .icon-astronaut::before{
-    display: block;
-    content: '';
-    height: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: var(--main-background-color);
     background-image: url(./img/img.studio/astronaut.svg);
 }
 
