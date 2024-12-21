@@ -137,26 +137,18 @@ margin-right: 93px;
 }
 
 .icon-antenna::before{
-    content: '';
-    display: block;
     background-image: url(./img/img.studio/antenna.svg);
 }
 
 .icon-clock::before{
-    content: '';
-    display: block;
     background-image: url(./img/img.studio/clock.svg);
 }
 
 .icon-diagram::before{
-    content: '';
-    display: block;
     background-image: url(./img/img.studio/diagram.svg);
 }
 
 .icon-astronaut::before{
-    content: '';
-    display: block;
     background-image: url(./img/img.studio/astronaut.svg);
 }
 
@@ -266,8 +258,22 @@ footer{
     color: var(--theird-text-color);
 }
 
-footer .logo,footer .Kyiv{
+footer .logo,footer .kyiv{
     color: var(--main-background-color);
+}
+
+footer .logo{
+    display: block;
+    padding-top: 60px;
+}
+
+footer .kyiv{
+    padding-bottom: 10px;
+}
+
+.phone{
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 footer .footer-address{
@@ -275,5 +281,5 @@ footer .footer-address{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    
+    padding-top: 20px;
 }
