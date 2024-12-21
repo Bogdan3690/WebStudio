@@ -110,7 +110,9 @@ margin-right: 93px;
     background-color: var(--theird-background-color);
     border: transparent;
     text-align: center;
+    border-radius: 4px;
 }
+
 
 .buttons:hover,.buttons:focus{
     background-color: var(--title-color);
@@ -135,18 +137,26 @@ margin-right: 93px;
 }
 
 .icon-antenna::before{
+    content: '';
+    display: block;
     background-image: url(./img/img.studio/antenna.svg);
 }
 
 .icon-clock::before{
+    content: '';
+    display: block;
     background-image: url(./img/img.studio/clock.svg);
 }
 
 .icon-diagram::before{
+    content: '';
+    display: block;
     background-image: url(./img/img.studio/diagram.svg);
 }
 
 .icon-astronaut::before{
+    content: '';
+    display: block;
     background-image: url(./img/img.studio/astronaut.svg);
 }
 
@@ -260,9 +270,10 @@ footer .logo,footer .Kyiv{
     color: var(--main-background-color);
 }
 
-.footer-address{
+footer .footer-address{
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    
 }
