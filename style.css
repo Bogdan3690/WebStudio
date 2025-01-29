@@ -283,3 +283,10 @@ footer .footer-address{
     font-weight: 400;
     padding-top: 20px;
 }
+
+.icons{
+    width: 16px;
+height: 12px;
+flex-shrink: 0;
+fill: #2196F3;
+}
