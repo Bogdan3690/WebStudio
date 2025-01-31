@@ -75,6 +75,7 @@ margin-right: 93px;
     margin-left: 342px;
     display: flex;
     gap: 50px;
+    display: block;
 }
 
 /* Links */
@@ -87,8 +88,19 @@ margin-right: 93px;
     display: inline-block;
 }
 
-.link:hover,.link:focus{
+.link:hover, .link:focus{
     color: var(--title-color);
+}
+
+/* Svg */
+.icons{
+    width: 16px;
+height: 12px;
+margin-right: 10px;
+}
+
+.icons:hover, .icons:focus{
+    fill: var(--title-color);
 }
 
 /* Buttons */
@@ -113,11 +125,11 @@ margin-right: 93px;
     border-radius: 4px;
 }
 
-
 .buttons:hover,.buttons:focus{
     background-color: var(--title-color);
     color: var(--main-background-color);
 }
+
 /* Serv-Section */
 .serv-section{
     padding-bottom: 118px;
@@ -134,22 +146,6 @@ margin-right: 93px;
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.icon-antenna::before{
-    background-image: url(./img/img.studio/antenna.svg);
-}
-
-.icon-clock::before{
-    background-image: url(./img/img.studio/clock.svg);
-}
-
-.icon-diagram::before{
-    background-image: url(./img/img.studio/diagram.svg);
-}
-
-.icon-astronaut::before{
-    background-image: url(./img/img.studio/astronaut.svg);
 }
 
 /* What-we-do Section */
@@ -227,6 +223,7 @@ margin-right: 93px;
 .serv-list .serv-text{
     color: var(--theird-text-color);
 }
+
 /* Work Section */
 .work-list{
     display: flex;
@@ -237,7 +234,6 @@ margin-right: 93px;
 
 .work-item{
     flex-basis: calc((100% - 60px) / 3);
-    outline: 2px solid red;
 }
 
 .work-text{
@@ -252,6 +248,7 @@ margin-right: 93px;
 .work-undertext{
     margin-bottom: 20px;
 }
+
 /* Footer */
 footer{
     background-color: var(--secondary-background-color);
@@ -284,9 +281,12 @@ footer .footer-address{
     padding-top: 20px;
 }
 
-.icons{
-    width: 16px;
-height: 12px;
-flex-shrink: 0;
-fill: #2196F3;
+.icon{
+    width: 70px;
+height: 70px;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
 }
