@@ -290,3 +290,19 @@ height: 70px;
     display: flex;
     justify-content: center;
 }
+
+.team .social-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.team .social-icon{
+    width: 20px;
+height: 20px;
+fill: currentColor;
+}
+
+.team .icon-link{
+    color : #ff0077;
+    display: inline-flex;
+}
