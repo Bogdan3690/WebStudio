@@ -291,18 +291,18 @@ height: 70px;
     justify-content: center;
 }
 
-.team .social-icons{
+.social-icons{
     display: flex;
     gap: 10px;
 }
 
-.team .social-icon{
+.social-icon{
     width: 20px;
 height: 20px;
 fill: currentColor;
 }
 
-.team .icon-link{
-    color : #ff0077;
+.icon-link{
+    fill: var(--title-color);
     display: inline-flex;
 }
