@@ -293,16 +293,47 @@ height: 70px;
 
 .social-icons{
     display: flex;
+    justify-content: space-around;
     gap: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 .social-icon{
     width: 20px;
 height: 20px;
-fill: currentColor;
 }
 
 .icon-link{
-    fill: var(--title-color);
     display: inline-flex;
+}
+
+.clients{
+    display: flex;
+    gap: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 110px;
+    margin-top: 66px;
+    color: var(--theird-text-color);
+}
+
+.brands{
+    display: inline-flex;
+}
+
+.brand-icon{
+    width: 106px;
+height: 60px;
+fill: currentColor;
+}
+
+.clients:hover .clients:focus{
+    color: var(--title-color);
+}
+
+.footer-icons{
+    display: inline-flex;
+    gap: 10px;
+    border: var(--secondary-text-color);
 }
