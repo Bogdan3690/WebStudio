@@ -331,7 +331,7 @@ flex-shrink: 0;
     color: var(--theird-text-color);
 }
 
-.brands{
+.brand{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -340,6 +340,7 @@ height: 92px;
 flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid #AFB1B8;
+color: var(--theird-text-color);
 }
 
 .brand-icon{
@@ -348,7 +349,7 @@ height: 60px;
 fill: currentColor;
 }
 
-.clients:hover .clients:focus{
+.brand:hover, .brand:focus{
     color: var(--title-color);
 border: 1px solid #2196F3;
 }
@@ -357,4 +358,28 @@ border: 1px solid #2196F3;
     display: inline-flex;
     gap: 10px;
     border: var(--secondary-text-color);
+}
+
+.position{
+    position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.label{
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 8px 16px;
+    border-bottom-left-radius: 4px;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+    color: #FFF;
+    background: rgba(47, 48, 58, 0.80);
 }
