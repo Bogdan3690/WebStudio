@@ -75,7 +75,6 @@ margin-right: 93px;
     margin-left: 342px;
     display: flex;
     gap: 50px;
-    display: block;
 }
 
 /* Links */
@@ -85,7 +84,6 @@ margin-right: 93px;
     color: var(--text-color);
     padding-top: 32px;
     padding-bottom: 32px;
-    display: inline-block;
 }
 
 .link:hover, .link:focus{
@@ -369,7 +367,7 @@ border: 1px solid #2196F3;
 
 .label{
     position: absolute;
-    bottom: 2px;
+    bottom: 3px;
     right: 0;
     left: 0;
     margin: 0;
@@ -384,33 +382,44 @@ text-transform: uppercase;
     background: rgba(47, 48, 58, 0.80);
 }
 
-
+/* Model */
 .backdrop{
     position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.871);
 }
 
 .model{
     position: absolute;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(255, 255, 255);
-    box-shadow: 21px 50px 35px 15px rgb(10, 0, 0),
-    10px 30px 5px 10px rgb(161, 19, 19);
-    width: 600px;
-    height: 400px;
+    box-shadow: 0 0 1000px 100px rgb(171, 171, 171), 10px 10px 50px 50px rgb(0, 0, 0);
+    width: 528px;
+height: 581px;
 }
 
 .backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
+}
+
+.icon-close{
+    height: 18px;
+    width: 18px;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+}
+
+.icon{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 8px;
 }
