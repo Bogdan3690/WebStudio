@@ -369,7 +369,7 @@ border: 1px solid #2196F3;
 
 .label{
     position: absolute;
-    bottom: 3px;
+    bottom: 2px;
     right: 0;
     left: 0;
     margin: 0;
@@ -382,4 +382,35 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
     color: #FFF;
     background: rgba(47, 48, 58, 0.80);
+}
+
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.871);
+}
+
+.model{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 21px 50px 35px 15px rgb(10, 0, 0),
+    10px 30px 5px 10px rgb(161, 19, 19);
+    width: 600px;
+    height: 400px;
+}
+
+.backdrop.is-hidden{
+    opacity: 0;
+    pointer-events: none;
 }

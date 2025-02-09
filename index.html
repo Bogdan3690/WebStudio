@@ -38,6 +38,12 @@
             <li class="link-list"><a class="link" href="">Contacts</a></li>
           </ul>
         </nav>
+        <button type="button" data-open-modal>More info</button>
+        <div class="backdrop is-hidden" data-backdrop>
+          <div class="model">
+            <svg><use href=".//img/symbol-defs-2.svg"></use></svg>
+          </div>
+        </div>
         <nav>
           <ul class="contacts">
             <li class="first-social-icon link">
@@ -94,7 +100,7 @@
             </li>
             <li class="serv-item">
               <div class="advantege-icon">
-                <svg  width="70" class="">
+                <svg width="70" class="">
                   <use href="./img/symbol-defs-2.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -124,33 +130,31 @@
           <ul class="what-we-do-list">
             <li>
               <div class="position">
-              <img
-                class="what-we-do-img"
-                src="img/img.studio/img (7).png"
-                alt="picture"
-              />
+                <img
+                  class="what-we-do-img"
+                  src="img/img.studio/img (7).png"
+                  alt="picture"
+                />
                 <p class="label">Десктопні додатки</p>
               </div>
             </li>
             <li>
-                
               <div class="position">
-              <img
-                class="what-we-do-img"
-                src="img/img.studio/img (1).png"
-                alt="picture"
-              />
+                <img
+                  class="what-we-do-img"
+                  src="img/img.studio/img (1).png"
+                  alt="picture"
+                />
                 <p class="label">Мобільні додатки</p>
               </div>
             </li>
             <li>
-                
               <div class="position">
-              <img
-                class="what-we-do-img"
-                src="img/img.studio/img (2).png"
-                alt="picture"
-              />
+                <img
+                  class="what-we-do-img"
+                  src="img/img.studio/img (2).png"
+                  alt="picture"
+                />
                 <p class="label">Дизайнерські рішення</p>
               </div>
             </li>
@@ -182,7 +186,9 @@
                 <li>
                   <a class="icon-link" href=""
                     ><svg class="social-icon">
-                      <use href="./img/symbol-defs-2.svg#icon-twitter"></use></svg
+                      <use
+                        href="./img/symbol-defs-2.svg#icon-twitter"
+                      ></use></svg
                   ></a>
                 </li>
                 <li>
@@ -219,7 +225,9 @@
                 <li>
                   <a class="icon-link" href=""
                     ><svg class="social-icon">
-                      <use href="./img/symbol-defs-2.svg#icon-twitter"></use></svg
+                      <use
+                        href="./img/symbol-defs-2.svg#icon-twitter"
+                      ></use></svg
                   ></a>
                 </li>
                 <li>
@@ -256,7 +264,9 @@
                 <li>
                   <a class="icon-link" href=""
                     ><svg class="social-icon">
-                      <use href="./img/symbol-defs-2.svg#icon-twitter"></use></svg
+                      <use
+                        href="./img/symbol-defs-2.svg#icon-twitter"
+                      ></use></svg
                   ></a>
                 </li>
                 <li>
@@ -293,7 +303,9 @@
                 <li>
                   <a class="icon-link" href=""
                     ><svg class="social-icon">
-                      <use href="./img/symbol-defs-2.svg#icon-twitter"></use></svg
+                      <use
+                        href="./img/symbol-defs-2.svg#icon-twitter"
+                      ></use></svg
                   ></a>
                 </li>
                 <li>
@@ -395,5 +407,25 @@
         </address>
       </div>
     </footer>
+    <script>
+      const refs = {
+        openModalBtn: document.querySelector("[data-open-modal]"),
+        closeModalBtn: document.querySelector("[data-close-modal]"),
+        backdrop: document.querySelector("[data-backdrop]"),
+      };
+
+      refs.openModalBtn.addEventListener("click", toggleModal);
+      refs.closeModalBtn.addEventListener("click", toggleModal);
+
+      refs.backdrop.addEventListener("click", logBackdropClick);
+
+      function toggleModal() {
+        refs.backdrop.classList.toggle("is-hidden");
+      }
+
+      function logBackdropClick() {
+        console.log("Это клик в бекдроп");
+      }
+    </script>
   </body>
 </html>
