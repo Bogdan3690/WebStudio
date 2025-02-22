@@ -417,10 +417,19 @@ height: 581px;
         fill: currentColor;
 }
 
-.icon{
+.close{
     background-color: transparent;
-    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: transparent;
     display: flex;
-    justify-content: end;
     padding: 8px;
+}
+
+.form{
+}
+
+.bold{
+    display: block;
 }

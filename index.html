@@ -64,25 +64,35 @@
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="button" type="button" data-open-modal>Замовити послугу</button>
           <!-- Modal -->
-          <div class="backdrop is-hidden" data-backdrop>
+          <div class="backdrop" data-backdrop>
             <div class="model">
-              <div class="icon">
+              <button type="button" class="close">
               <svg class="icon-close" data-close-modal><use href="./img/symbol-defs.svg#icon-close"></use></svg>
-              <b>Залиште свої дані, ми вам передзвонимо</b>
-              <form>
-                <label for="name">Ім'я</label>
-                <input id="name" type="text">
-                <label for="phone">Телефон</label>
-                <input id="phone" type="tel">
-                <label for="mail">Пошта</label>
-                <input id="mail" type="mail">
-                <label for="comment">Коментар</label>
-                <textarea name="" id="comment" placeholder="Введіть текст"/>
-                <input type="checkbox" name="" id="link">
+            </button>
+              <b class="bold">Залиште свої дані, ми вам передзвонимо</b>
+              <form class="form">
+                <ul>
+                <li>
+                  <label class="form-label" for="name">Ім'я</label>
+                <input class="field" id="name" type="text">
+              </li>
+                <li>
+                  <label class="form-label" for="phone">Телефон</label>
+                <input class="field" id="phone" type="tel">
+              </li>
+                <li>
+                  <label class="form-label" for="mail">Пошта</label>
+                <input class="field" id="mail" type="mail">
+              </li>
+                <li>
+                <label class="form-label" for="comment">Коментар</label>
+                <textarea class="textarea" name="" id="comment" placeholder="Введіть текст"></textarea>
+              </li>
+                <input class="checkbox" type="checkbox" name="" id="link">
                 <label for="link">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
-                <button type="button">Відправити</button>
+              </ul>
+                <button class="button" type="button">Відправити</button>
               </form>
-            </div>
             </div>
         </div>
       </section>
