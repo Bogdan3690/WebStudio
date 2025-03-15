@@ -546,34 +546,32 @@ letter-spacing: 0.42px;
     justify-content: center;
 }
 
-.overlay{    
-    background-color: #f3c62178;
-    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 150ms;
-    opacity: 0;
-}
-
-.overlay .text{
+.thumb .text{
     font-family: Roboto;
+    color: #FFF;
 font-weight: 400;
 font-size: 18px;
 line-height: 28px;
 letter-spacing: 3%;
-text-align: center;
+padding-top: 50px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
-.overlay:hover{
-    opacity: 1;
+.work-item{
+    position: relative;
+    overflow: hidden;
 }
 
-.work-item .overlay{
-    background-color: #2195f3b3;
-    width: 370;
-height: 294;
-top: 260px;
-left: 215px;
-    z-index: 2;
+.work-item:hover .thumb{
+    bottom: 80px;
 }
 
 .thumb{
-    
+    position: absolute;
+    bottom: -100%;
+    background-color: #2195f3c8;
+    transition: 250ms bottom cubic-bezier(0.215, 0.610, 0.355, 1);
+    width: 370px;
+height: 240px;
 }
