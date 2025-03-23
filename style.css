@@ -263,7 +263,7 @@ footer .kyiv{
     padding-bottom: 10px;
 }
 
-.phone{
+footer .phone{
     padding-top: 10px;
     padding-bottom: 60px;
 }
@@ -574,4 +574,67 @@ padding-right: 15px;
     transition: 250ms bottom cubic-bezier(0.215, 0.610, 0.355, 1);
     width: 370px;
 height: 240px;
+}
+
+.form-subject{
+    color: var(--primary-text-color);
+font-weight: 700;
+letter-spacing: -0.35px;
+width: 457px;
+height: 53px;
+flex-shrink: 0;
+
+color: #BBB;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+}
+
+.form-message{
+    width: 358px;
+    height: 50px;
+    top: 1736px;
+    left: 815px;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.form-message::placeholder{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    vertical-align: middle;
+    width: 47px;
+height: 20px;
+top: 1751px;
+left: 831px;
+}
+
+.footer-model{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+}
+
+footer .button{
+    margin: 0;
+}
+
+footer .label{
+    width: 207px;
+height: 16px;
+font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 3%;
+text-transform: uppercase;
+
 }
