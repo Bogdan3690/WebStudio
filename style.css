@@ -71,6 +71,13 @@ margin-right: 93px;
     gap: 50px;
 }
 
+.link:hover{
+    border-bottom: solid 5px var(--title-color);
+    border-radius: 2px;
+    padding-bottom: 28px;
+    transition: border 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .contacts{
     margin-left: 342px;
     display: flex;
@@ -615,6 +622,7 @@ text-transform: uppercase;
 height: 20px;
 top: 1751px;
 left: 831px;
+padding-left: 16px;
 }
 
 .footer-model{
@@ -625,16 +633,4 @@ left: 831px;
 
 footer .button{
     margin: 0;
-}
-
-footer .label{
-    width: 207px;
-height: 16px;
-font-family: Roboto;
-font-weight: 700;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 3%;
-text-transform: uppercase;
-
 }
