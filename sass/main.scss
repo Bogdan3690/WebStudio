@@ -2,11 +2,14 @@
 @import "./utillits";
 @import "./common";
 @import "./header";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
+@import "./serv"; // <--- change position
+@import "./what-we-do"; // <--- change position
+@import "./team"; // <--- change position
+// @import "./"; // <--- change position
+// @import "./";
+// @import "./";
 @import "./footer";
+
+
+
+@import "./work"; // <--- (webstudio) change position

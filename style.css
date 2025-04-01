@@ -1,83 +1,6 @@
-.contacts{
-    margin-left: 342px;
-    display: flex;
-    gap: 50px;
-}
-
-/* Serv-Section */
-.serv-section{
-    padding-bottom: 118px;
-    padding-top: 94px;
-}
-
-.serv-list{
-    display: flex;
-    gap: 30px;
-}
-
-.serv-item{
-    display: block;
-    height: 100px;
-}
-
-/* What-we-do Section */
-.what-we-do{
-    padding-bottom: 188px;
-}
-
-.what-we-do-list{
-    display: flex;
-    gap: 30px;
-}
-
-/* Team List */
-.team .container{
-    background-color: var(--theird-background-color);
-    margin-bottom: 154px;
-}
-
-.team-section{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-
-.our-team{
-    margin-bottom: 50px;
-}
-
-.team-text{
-    text-align: center;
-}
-
-.team-toptext{
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.team-undertext{
-    color: var(--theird-text-color);
-    margin-bottom: 30px;
-}
 
 /* Main Title/Text */
-.main-title{
-    color: var(--main-background-color);
-    font-weight: 900;
-    font-size: 44px;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.main-text{
-    background-color: var(--secondary-background-color);
-    text-align: center;
-    height: 600px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 200px;
-}
 /* Lists */
 .nav{
     display: flex; 
@@ -96,72 +19,13 @@
 }
 
 /* Work Section */
-.work-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 154px;
-}
 
-.work-item{
-    flex-basis: calc((100% - 60px) / 3);
-}
-
-.work-text{
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
-.work-toptext{
-    margin-top: 20px;
-}
-
-.work-undertext{
-    margin-bottom: 20px;
-}
 
 /* Footer */
-footer{
-    background-color: var(--secondary-background-color);
-    color: var(--theird-text-color);
-}
 
-footer .logo,footer .kyiv{
-    color: var(--main-background-color);
-}
-
-footer .logo{
-    display: block;
-    padding-top: 60px;
-}
-
-footer .kyiv{
-    padding-bottom: 10px;
-}
-
-footer .phone{
-    padding-top: 10px;
-    padding-bottom: 60px;
-}
-
-footer .footer-address{
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    padding-top: 20px;
-}
 
 /* Advantages */
-.advantege-icon{
-    width: 270px;
-height: 120px;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 4px;
-background: #F5F4FA;
-}
+
 
 /* Our team */
 .social-icons{

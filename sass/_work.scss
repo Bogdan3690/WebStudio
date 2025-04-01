@@ -1,0 +1,23 @@
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 154px;
+}
+
+.work-item{
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.work-text{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.work-toptext{
+    margin-top: 20px;
+}
+
+.work-undertext{
+    margin-bottom: 20px;
+}

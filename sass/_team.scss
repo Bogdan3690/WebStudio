@@ -1,0 +1,28 @@
+.team .container{
+    background-color: var(--theird-background-color);
+    margin-bottom: 154px;
+}
+
+.team-section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.our-team{
+    margin-bottom: 50px;
+}
+
+.team-text{
+    text-align: center;
+}
+
+.team-toptext{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team-undertext{
+    color: var(--theird-text-color);
+    margin-bottom: 30px;
+}

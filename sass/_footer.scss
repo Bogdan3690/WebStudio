@@ -1,0 +1,30 @@
+footer{
+    background-color: var(--secondary-background-color);
+    color: var(--theird-text-color);
+}
+
+footer .logo,footer .kyiv{
+    color: var(--main-background-color);
+}
+
+footer .logo{
+    display: block;
+    padding-top: 60px;
+}
+
+footer .kyiv{
+    padding-bottom: 10px;
+}
+
+footer .phone{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+footer .footer-address{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 20px;
+}

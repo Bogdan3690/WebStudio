@@ -41,6 +41,56 @@ h2 {
   padding-right: 15px;
 }
 
+.link {
+  list-style: none;
+  text-decoration: none;
+  color: var(--text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.link:hover, .link:focus {
+  color: var(--title-color);
+  border-bottom: solid 5px var(--title-color);
+  border-radius: 2px;
+  padding-bottom: 28px;
+  transition: border 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.icons {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.icons:hover, .icons:focus {
+  fill: var(--title-color);
+}
+
+/* Buttons */
+.button {
+  background-color: var(--title-color);
+  color: var(--main-background-color);
+  border: transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 40px;
+  width: 216px;
+  height: 50px;
+  letter-spacing: 0.96px;
+}
+
+.buttons {
+  color: var(--text-color);
+  background-color: var(--theird-background-color);
+  border: transparent;
+  text-align: center;
+  border-radius: 4px;
+}
+.buttons:hover, .buttons:focus {
+  background-color: var(--title-color);
+  color: var(--main-background-color);
+}
+
 .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -67,15 +117,134 @@ h2 {
   gap: 50px;
 }
 
-.link:hover {
-  border-bottom: solid 5px var(--title-color);
-  border-radius: 2px;
-  padding-bottom: 28px;
-  transition: border 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
 .contacts {
   margin-left: 342px;
   display: flex;
   gap: 50px;
+}
+
+.serv-section {
+  padding-bottom: 118px;
+  padding-top: 94px;
+}
+
+.serv-list {
+  display: flex;
+  gap: 30px;
+}
+
+.serv-item {
+  display: block;
+  height: 100px;
+}
+
+.main-title {
+  color: var(--main-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-text {
+  background-color: var(--secondary-background-color);
+  text-align: center;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.what-we-do {
+  padding-bottom: 188px;
+}
+
+.what-we-do-list {
+  display: flex;
+  gap: 30px;
+}
+
+.team .container {
+  background-color: var(--theird-background-color);
+  margin-bottom: 154px;
+}
+
+.team-section {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.our-team {
+  margin-bottom: 50px;
+}
+
+.team-text {
+  text-align: center;
+}
+
+.team-toptext {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team-undertext {
+  color: var(--theird-text-color);
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: var(--secondary-background-color);
+  color: var(--theird-text-color);
+}
+
+footer .logo, footer .kyiv {
+  color: var(--main-background-color);
+}
+
+footer .logo {
+  display: block;
+  padding-top: 60px;
+}
+
+footer .kyiv {
+  padding-bottom: 10px;
+}
+
+footer .phone {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+footer .footer-address {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 154px;
+}
+
+.work-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.work-text {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.work-toptext {
+  margin-top: 20px;
+}
+
+.work-undertext {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
