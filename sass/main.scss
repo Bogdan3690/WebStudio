@@ -1,15 +1,10 @@
-@import "./variables";
-@import "./utillits";
-@import "./common";
-@import "./header";
-@import "./serv"; // <--- change position
-@import "./what-we-do"; // <--- change position
-@import "./team"; // <--- change position
-// @import "./"; // <--- change position
-// @import "./";
-// @import "./";
-@import "./footer";
-
-
-
-@import "./work"; // <--- (webstudio) change position
+@import "./Studio/variables";
+@import "./Studio/utillits";
+@import "./Studio/common";
+@import "./Studio/header";
+@import "./Studio/main-sec";
+@import "./Studio/serv";
+@import "./Studio/what-we-do";
+@import "./Studio/team";
+@import "./Studio/clients";
+@import "./Studio/footer";

@@ -1,3 +1,18 @@
+.serv-section{
+    padding-bottom: 118px;
+    padding-top: 94px;
+}
+
+.serv-list{
+    display: flex;
+    gap: 30px;
+}
+
+.serv-item{
+    display: block;
+    height: 100px;
+}
+
 .main-title{
     color: var(--main-background-color);
     font-weight: 900;
@@ -7,11 +22,19 @@
     margin-right: auto;
 }
 
-.main{
+.main-text{
     background-color: var(--secondary-background-color);
     text-align: center;
     height: 600px;
     align-items: center;
     justify-content: center;
     padding-top: 200px;
+}
+
+.serv-list{
+    list-style: none;
+    text-decoration: none;
+}
+.serv-list .serv-text{
+    color: var(--theird-text-color);
 }

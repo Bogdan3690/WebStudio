@@ -28,3 +28,25 @@ footer .footer-address{
     font-weight: 400;
     padding-top: 20px;
 }
+
+.form-message::placeholder{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    vertical-align: middle;
+    width: 47px;
+height: 20px;
+top: 1751px;
+left: 831px;
+padding-left: 16px;
+}
+
+.footer-model{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+}
+
+footer .button{
+    margin: 0;
+}

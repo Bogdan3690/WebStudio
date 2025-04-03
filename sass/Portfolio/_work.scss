@@ -1,0 +1,53 @@
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 154px;
+}
+
+.work-item{
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.work-text{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.work-toptext{
+    margin-top: 20px;
+}
+
+.work-undertext{
+    margin-bottom: 20px;
+}
+
+.thumb .text{
+    font-family: Roboto;
+    color: #FFF;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 3%;
+padding-top: 50px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.work-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.work-item:hover .thumb{
+    bottom: 80px;
+}
+
+.thumb{
+    position: absolute;
+    bottom: -100%;
+    background-color: #2195f3c8;
+    transition: 250ms bottom cubic-bezier(0.215, 0.610, 0.355, 1);
+    width: 370px;
+height: 240px;
+}
