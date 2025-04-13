@@ -35,6 +35,28 @@
     list-style: none;
     text-decoration: none;
 }
+
 .serv-list .serv-text{
     color: var(--theird-text-color);
+}
+
+.serv-list{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: block;
+}
+}
+
+.serv-title{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: flex;
+        justify-content: center;
+}
+}
+
+.serv-text{
+    @media screen and (max-width: $mobile){
+        width: 451px;
+}
 }

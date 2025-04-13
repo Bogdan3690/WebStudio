@@ -41,10 +41,26 @@ left: 831px;
 padding-left: 16px;
 }
 
+footer{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .footer-model{
     display: flex;
     gap: 28px;
     justify-content: center;
+        @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
 }
 
 footer .button{

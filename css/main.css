@@ -142,6 +142,24 @@ h2 {
   gap: 8px;
 }
 
+@media screen and (max-width: 482px) {
+  .header {
+    width: 482px;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .contacts {
+    display: none;
+  }
+}
+
 .main-title {
   color: var(--main-background-color);
   font-weight: 900;
@@ -360,6 +378,20 @@ textarea::placeholder {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+@media screen and (max-width: 482px) {
+  .main .container {
+    width: 482px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .main .main-title {
+    width: 482px;
+    display: block;
+  }
+}
+
 .serv-section {
   padding-bottom: 118px;
   padding-top: 94px;
@@ -402,6 +434,27 @@ textarea::placeholder {
   color: var(--theird-text-color);
 }
 
+@media screen and (max-width: 482px) {
+  .serv-list {
+    width: 482px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .serv-title {
+    width: 482px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .serv-text {
+    width: 451px;
+  }
+}
+
 .what-we-do {
   padding-bottom: 188px;
 }
@@ -422,6 +475,12 @@ textarea::placeholder {
   margin-left: 342px;
   display: flex;
   gap: 50px;
+}
+
+@media screen and (max-width: 482px) {
+  .what-we-do {
+    display: none;
+  }
 }
 
 .team .container {
@@ -512,6 +571,27 @@ textarea::placeholder {
   border: var(--secondary-text-color);
 }
 
+@media screen and (max-width: 482px) {
+  .team-section {
+    width: 482px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .our-team {
+    width: 482px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .teammates {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .advantege-icon {
   width: 270px;
   height: 120px;
@@ -530,6 +610,16 @@ textarea::placeholder {
   margin-bottom: 110px;
   margin-top: 66px;
   color: var(--theird-text-color);
+}
+
+@media screen and (max-width: 482px) {
+  .clients {
+    width: 482px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 footer {
@@ -587,10 +677,28 @@ footer .footer-address {
   padding-left: 16px;
 }
 
+@media screen and (max-width: 482px) {
+  footer {
+    width: 482px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .footer-model {
   display: flex;
   gap: 28px;
   justify-content: center;
+}
+@media screen and (max-width: 482px) {
+  .footer-model {
+    width: 482px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
 }
 
 footer .button {

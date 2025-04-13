@@ -86,3 +86,24 @@ border: 1px solid #2196F3;
     gap: 10px;
     border: var(--secondary-text-color);
 }
+
+.team-section{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: block;
+    }
+    }
+
+.our-team{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: block;
+    }
+}
+
+.teammates{
+    @media screen and (max-width: $mobile){
+        display: flex;
+        justify-content: center;
+}
+}

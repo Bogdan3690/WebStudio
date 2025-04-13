@@ -31,3 +31,21 @@ margin-right: 93px;
     margin-top: 94px;
     gap: 8px;
 }
+
+.header{
+@media screen and (max-width: $mobile){
+    width: $mobile;
+}
+}
+
+.nav-list{
+    @media screen and (max-width: $mobile){
+        display: none;
+    }
+}
+
+.contacts{
+    @media screen and (max-width: $mobile){
+        display: none;
+    }
+}

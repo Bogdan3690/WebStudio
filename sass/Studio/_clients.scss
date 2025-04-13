@@ -17,3 +17,14 @@ background: #F5F4FA;
     margin-top: 66px;
     color: var(--theird-text-color);
 }
+
+.clients{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        flex-wrap: wrap;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        // flex-basis: calc((100% - 430px) / 2);
+    }
+}

@@ -209,3 +209,16 @@ text-transform: uppercase;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.main .container{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: block;
+    }
+}
+
+.main .main-title{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: block;
+    }
+}
