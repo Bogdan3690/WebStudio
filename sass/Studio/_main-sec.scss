@@ -222,3 +222,16 @@ text-transform: uppercase;
         display: block;
     }
 }
+
+.main .container{
+    @media screen and (max-width: $tablet){
+        width: $tablet;
+    }
+}
+
+.main .main-title{
+    @media screen and (max-width: $tablet){
+        width: $tablet;
+        display: block;
+    }
+}

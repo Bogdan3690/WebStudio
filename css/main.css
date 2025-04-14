@@ -160,6 +160,26 @@ h2 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .contacts {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .main-title {
   color: var(--main-background-color);
   font-weight: 900;
@@ -388,6 +408,19 @@ textarea::placeholder {
 @media screen and (max-width: 482px) {
   .main .main-title {
     width: 482px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main .container {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main .main-title {
+    width: 768px;
     display: block;
   }
 }

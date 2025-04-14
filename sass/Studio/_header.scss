@@ -32,6 +32,8 @@ margin-right: 93px;
     gap: 8px;
 }
 
+// mobile
+
 .header{
 @media screen and (max-width: $mobile){
     width: $mobile;
@@ -48,4 +50,26 @@ margin-right: 93px;
     @media screen and (max-width: $mobile){
         display: none;
     }
+}
+
+// tablet
+
+.header{
+    @media screen and (max-width: $tablet){
+        width: $tablet;
+    }
+}
+    
+.nav-list{
+        @media screen and (max-width: $tablet){
+            width: $tablet;
+        }
+}
+    
+.header .contacts{
+        @media screen and (max-width: $tablet){
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
 }
