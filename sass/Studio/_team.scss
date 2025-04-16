@@ -88,21 +88,21 @@ border: 1px solid #2196F3;
 }
 
 .team-section{
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: 481px){
         width: $mobile;
         display: block;
     }
     }
 
 .our-team{
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: 481px){
         width: $mobile;
         display: block;
     }
 }
 
 .teammates{
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: 481px){
         display: flex;
         justify-content: center;
 }

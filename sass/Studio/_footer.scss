@@ -42,7 +42,7 @@ padding-left: 16px;
 }
 
 footer{
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: 481px){
         width: $mobile;
         display: flex;
         flex-wrap: wrap;
@@ -54,7 +54,7 @@ footer{
     display: flex;
     gap: 28px;
     justify-content: center;
-        @media screen and (max-width: $mobile){
+        @media screen and (max-width: 481px){
         width: $mobile;
         display: block;
         margin-left: auto;

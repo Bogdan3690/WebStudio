@@ -21,7 +21,13 @@
 }
 
 .what-we-do{
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: 481px){
+        display: none;
+}
+}
+
+.what-we-do{
+    @media screen and (max-width: 767px){
         display: none;
 }
 }

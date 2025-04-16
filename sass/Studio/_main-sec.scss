@@ -210,28 +210,32 @@ text-transform: uppercase;
 }
 
 .main .container{
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: 481px){
         width: $mobile;
-        display: block;
+        margin: 0;
+        padding: 0;
     }
 }
 
 .main .main-title{
-    @media screen and (max-width: $mobile){
-        width: $mobile;
+    @media screen and (max-width: 481px){
+        width: 330px;
         display: block;
+font-size: 26px;
+text-transform: uppercase;
     }
 }
 
 .main .container{
-    @media screen and (max-width: $tablet){
+    @media screen and (max-width: 767px){
         width: $tablet;
+        margin: 0;
+        padding: 0;
     }
 }
 
 .main .main-title{
-    @media screen and (max-width: $tablet){
-        width: $tablet;
-        display: block;
+    @media screen and (max-width: 767px){
+        width: 500px;
     }
 }

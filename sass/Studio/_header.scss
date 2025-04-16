@@ -17,6 +17,11 @@ margin-right: 93px;
     display: flex;
     gap: 25px;
     align-items: center;
+@media screen and (max-width: 767px){
+    width: $tablet;
+    justify-content: space-between;
+    padding: 16px 0;
+    }
 }
 
 .nav-list{
@@ -35,41 +40,52 @@ margin-right: 93px;
 // mobile
 
 .header{
-@media screen and (max-width: $mobile){
+@media screen and (max-width: 481px){
     width: $mobile;
+    padding: 16px 0;
 }
 }
 
 .nav-list{
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: 481px){
         display: none;
     }
 }
 
-.contacts{
-    @media screen and (max-width: $mobile){
+.header .contacts{
+    @media screen and (max-width: 481px){
         display: none;
     }
 }
 
 // tablet
 
-.header{
-    @media screen and (max-width: $tablet){
+.header .logo{
+    margin-left: 15px;
+}
+
+header .header{
+    @media screen and (max-width: 767px){
         width: $tablet;
     }
 }
-    
-.nav-list{
-        @media screen and (max-width: $tablet){
-            width: $tablet;
+.header .nav-list{
+        @media screen and (max-width: 767px){
+            margin: 0;
+            padding: 0;
         }
 }
     
 .header .contacts{
-        @media screen and (max-width: $tablet){
+        @media screen and (max-width: 767px){
             display: block;
             margin: 0;
             padding: 0;
         }
+}
+
+.header .link{
+    @media screen and (max-width: 767px){
+        padding: 0;
+}
 }
