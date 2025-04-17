@@ -21,13 +21,13 @@
 }
 
 .what-we-do{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         display: none;
 }
 }
 
 .what-we-do{
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: $tablet){
         display: none;
 }
 }

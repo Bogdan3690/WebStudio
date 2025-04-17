@@ -17,7 +17,7 @@ margin-right: 93px;
     display: flex;
     gap: 25px;
     align-items: center;
-@media screen and (max-width: 767px){
+@media screen and (min-width: $tablet){
     width: $tablet;
     justify-content: space-between;
     padding: 16px 0;
@@ -40,20 +40,20 @@ margin-right: 93px;
 // mobile
 
 .header{
-@media screen and (max-width: 481px){
+@media screen and (min-width: $mobile){
     width: $mobile;
     padding: 16px 0;
 }
 }
 
 .nav-list{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         display: none;
     }
 }
 
 .header .contacts{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         display: none;
     }
 }
@@ -65,19 +65,19 @@ margin-right: 93px;
 }
 
 header .header{
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: $tablet){
         width: $tablet;
     }
 }
 .header .nav-list{
-        @media screen and (max-width: 767px){
+        @media screen and (min-width: $tablet){
             margin: 0;
             padding: 0;
         }
 }
     
 .header .contacts{
-        @media screen and (max-width: 767px){
+        @media screen and (min-width: $tablet){
             display: block;
             margin: 0;
             padding: 0;
@@ -85,7 +85,7 @@ header .header{
 }
 
 .header .link{
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: $tablet){
         padding: 0;
 }
 }

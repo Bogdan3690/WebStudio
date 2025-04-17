@@ -210,7 +210,7 @@ text-transform: uppercase;
 }
 
 .main .container{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         width: $mobile;
         margin: 0;
         padding: 0;
@@ -218,7 +218,7 @@ text-transform: uppercase;
 }
 
 .main .main-title{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         width: 330px;
         display: block;
 font-size: 26px;
@@ -227,7 +227,7 @@ text-transform: uppercase;
 }
 
 .main .container{
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: $tablet){
         width: $tablet;
         margin: 0;
         padding: 0;
@@ -235,7 +235,7 @@ text-transform: uppercase;
 }
 
 .main .main-title{
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: $tablet){
         width: 500px;
     }
 }

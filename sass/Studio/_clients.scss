@@ -19,7 +19,7 @@ background: #F5F4FA;
 }
 
 .clients{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         width: $mobile;
         flex-wrap: wrap;
         display: flex;

@@ -33,6 +33,12 @@ h2 {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -128,7 +134,7 @@ h2 {
   gap: 25px;
   align-items: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .header-container {
     width: 768px;
     justify-content: space-between;
@@ -149,20 +155,20 @@ h2 {
   gap: 8px;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .header {
     width: 482px;
     padding: 16px 0;
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .nav-list {
     display: none;
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .header .contacts {
     display: none;
   }
@@ -172,20 +178,20 @@ h2 {
   margin-left: 15px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   header .header {
     width: 768px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .header .nav-list {
     margin: 0;
     padding: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .header .contacts {
     display: block;
     margin: 0;
@@ -193,7 +199,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .header .link {
     padding: 0;
   }
@@ -417,7 +423,7 @@ textarea::placeholder {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .main .container {
     width: 482px;
     margin: 0;
@@ -425,7 +431,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .main .main-title {
     width: 330px;
     display: block;
@@ -434,7 +440,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .main .container {
     width: 768px;
     margin: 0;
@@ -442,7 +448,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .main .main-title {
     width: 500px;
   }
@@ -456,6 +462,8 @@ textarea::placeholder {
 .serv-list {
   display: flex;
   gap: 30px;
+  list-style: none;
+  text-decoration: none;
 }
 
 .serv-item {
@@ -481,23 +489,18 @@ textarea::placeholder {
   padding-top: 200px;
 }
 
-.serv-list {
-  list-style: none;
-  text-decoration: none;
-}
-
 .serv-list .serv-text {
   color: var(--theird-text-color);
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .serv-list {
     width: 482px;
     display: block;
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .serv-title {
     width: 482px;
     display: flex;
@@ -505,33 +508,28 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .serv-text {
     width: 451px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .serv-section {
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .serv-list {
     width: 768px;
-    flex-wrap: wrap;
-    display: block;
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .serv-title {
     width: 768px;
+    display: flex;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .serv-text {
     width: 345px;
   }
@@ -559,13 +557,13 @@ textarea::placeholder {
   gap: 50px;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .what-we-do {
     display: none;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .what-we-do {
     display: none;
   }
@@ -659,24 +657,31 @@ textarea::placeholder {
   border: var(--secondary-text-color);
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .team-section {
     width: 482px;
     display: block;
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .our-team {
     width: 482px;
     display: block;
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .teammates {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team .container {
+    width: 768px;
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
 
@@ -700,7 +705,7 @@ textarea::placeholder {
   color: var(--theird-text-color);
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .clients {
     width: 482px;
     flex-wrap: wrap;
@@ -765,7 +770,7 @@ footer .footer-address {
   padding-left: 16px;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   footer {
     width: 482px;
     display: flex;
@@ -779,13 +784,10 @@ footer .footer-address {
   gap: 28px;
   justify-content: center;
 }
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 482px) {
   .footer-model {
     width: 482px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
   }
 }
 

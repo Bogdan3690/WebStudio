@@ -6,6 +6,8 @@
 .serv-list{
     display: flex;
     gap: 30px;
+    list-style: none;
+    text-decoration: none;
 }
 
 .serv-item{
@@ -31,58 +33,50 @@
     padding-top: 200px;
 }
 
-.serv-list{
-    list-style: none;
-    text-decoration: none;
-}
-
 .serv-list .serv-text{
     color: var(--theird-text-color);
 }
 
 .serv-list{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         width: $mobile;
         display: block;
 }
 }
 
 .serv-title{
-    @media screen and (max-width: 481px){
+    @media screen and (min-width: $mobile){
         width: $mobile;
+        display: flex;
+        justify-content: center; 
+}
+}
+
+.serv-text{
+    @media screen and (min-width: $mobile){
+        width: 451px;
+}
+}
+
+// tablet
+
+.serv-list{
+    @media screen and (min-width: $tablet){
+        width: $tablet;
+        flex-basis: calc((100% - 30px) / 2);
+}
+}
+
+.serv-title{
+    @media screen and (min-width: $tablet){
+        width: $tablet;
         display: flex;
         justify-content: center;
 }
 }
 
 .serv-text{
-    @media screen and (max-width: 481px){
-        width: 451px;
-}
-}
-
-.serv-section{
-    @media screen and (max-width: 767px){
-        display: flex;
-}
-}
-
-.serv-list{
-    @media screen and (max-width: 767px){
-        width: $tablet;
-        flex-wrap: wrap;
-        display: block;
-}
-}
-
-.serv-title{
-    @media screen and (max-width: 767px){
-        width: $tablet;
-}
-}
-
-.serv-text{
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: $tablet){
         width: 345px;
 }
 }
