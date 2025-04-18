@@ -18,7 +18,6 @@ margin-right: 93px;
     gap: 25px;
     align-items: center;
 @media screen and (min-width: $tablet){
-    width: $tablet;
     justify-content: space-between;
     padding: 16px 0;
     }
@@ -37,51 +36,30 @@ margin-right: 93px;
     gap: 8px;
 }
 
-// mobile
-
-.header{
-@media screen and (min-width: $mobile){
-    width: $mobile;
-    padding: 16px 0;
-}
-}
-
 .nav-list{
-    @media screen and (min-width: $mobile){
+    @media screen and (max-width: 767px){
         display: none;
     }
-}
-
-.header .contacts{
-    @media screen and (min-width: $mobile){
-        display: none;
-    }
-}
-
-// tablet
-
-.header .logo{
-    margin-left: 15px;
-}
-
-header .header{
     @media screen and (min-width: $tablet){
-        width: $tablet;
+        margin: 0;
+        padding: 0;
     }
 }
-.header .nav-list{
-        @media screen and (min-width: $tablet){
-            margin: 0;
-            padding: 0;
-        }
-}
-    
+
 .header .contacts{
-        @media screen and (min-width: $tablet){
-            display: block;
-            margin: 0;
-            padding: 0;
-        }
+    @media screen and (min-width: $mobile){
+        display: none;
+    }
+    @media screen and (min-width: $tablet){
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    @media screen and (min-width: $desktop){
+        flex-direction: row;
+    }
 }
 
 .header .link{

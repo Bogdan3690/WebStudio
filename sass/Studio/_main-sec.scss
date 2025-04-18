@@ -1,10 +1,23 @@
-.main-title{
+.main .main-title{
     color: var(--main-background-color);
+    width: 360px;
+    font-size: 26px;
     font-weight: 900;
-    font-size: 44px;
-    width: 696px;
     margin-left: auto;
     margin-right: auto;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 6%;
+    @media screen and (min-width: $desktop){
+        font-size: 44px;
+        width: 696px;
+    }
+}
+
+.cover{
+    @media screen and (min-width: $tablet){
+        margin-bottom: 200px;
+    }
 }
 
 .main{
@@ -14,6 +27,15 @@
     align-items: center;
     justify-content: center;
     padding-top: 200px;
+    @media screen and (min-width: $tablet){
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.main .container{
+    @media screen and (min-width: $tablet){
+    }
 }
 
 .backdrop{
@@ -195,6 +217,13 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: -0.35px;
 text-transform: uppercase;
+@media screen and (min-width: $mobile){
+    width: $mobile;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: $tablet){
+}
 }
 
 .form-message{
@@ -211,31 +240,12 @@ text-transform: uppercase;
 
 .main .container{
     @media screen and (min-width: $mobile){
-        width: $mobile;
         margin: 0;
         padding: 0;
-    }
-}
-
-.main .main-title{
-    @media screen and (min-width: $mobile){
-        width: 330px;
-        display: block;
-font-size: 26px;
-text-transform: uppercase;
     }
 }
 
 .main .container{
     @media screen and (min-width: $tablet){
-        width: $tablet;
-        margin: 0;
-        padding: 0;
-    }
-}
-
-.main .main-title{
-    @media screen and (min-width: $tablet){
-        width: 500px;
     }
 }

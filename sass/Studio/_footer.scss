@@ -1,6 +1,7 @@
 footer{
     background-color: var(--secondary-background-color);
     color: var(--theird-text-color);
+    padding-bottom: 60px;
 }
 
 footer .logo,footer .kyiv{
@@ -10,23 +11,30 @@ footer .logo,footer .kyiv{
 footer .logo{
     display: block;
     padding-top: 60px;
+    @media screen and (min-width: $mobile){
+        text-align: center;
+        margin: 0;
+    }
 }
 
 footer .kyiv{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 footer .phone{
-    padding-top: 10px;
-    padding-bottom: 60px;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 
 footer .footer-address{
-    font-family: Roboto;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    padding-top: 20px;
+    margin-top: 20px;
+    @media screen and (min-width: $mobile){
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .form-message::placeholder{
@@ -41,25 +49,24 @@ left: 831px;
 padding-left: 16px;
 }
 
-footer{
-    @media screen and (min-width: $mobile){
-        width: $mobile;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
 .footer-model{
-    display: flex;
     gap: 28px;
-    justify-content: center;
-        @media screen and (min-width: $mobile){
-        width: $mobile;
-        display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: $desktop){
+        justify-content: center;
+        flex-direction: row;
     }
 }
 
-footer .button{
-    margin: 0;
+.sub{
+    color: #FFFFFF;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 3%;
+text-transform: uppercase;
+width: 207px;
+height: 16px;
 }

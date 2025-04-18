@@ -4,9 +4,18 @@
 }
 
 .team-section{
+    @media screen and (min-width: $tablet){
     display: flex;
     gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
+    }
+}
+
+.team-section li{
+    @media screen and (min-width: $tablet){
+        flex-basis: calc((100% - 30px) / 2);
+    }
 }
 
 .our-team{
@@ -87,20 +96,6 @@ border: 1px solid #2196F3;
     border: var(--secondary-text-color);
 }
 
-.team-section{
-    @media screen and (min-width: $mobile){
-        width: $mobile;
-        display: block;
-    }
-    }
-
-.our-team{
-    @media screen and (min-width: $mobile){
-        width: $mobile;
-        display: block;
-    }
-}
-
 .teammates{
     @media screen and (min-width: $mobile){
         display: flex;
@@ -108,11 +103,8 @@ border: 1px solid #2196F3;
 }
 }
 
-// tablet
-
 .team .container{
     @media screen and (min-width: $tablet){
-        width: $tablet;
         flex-basis: calc((100% - 30px) / 2);
     }
 }

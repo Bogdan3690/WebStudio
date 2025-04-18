@@ -4,15 +4,19 @@
 }
 
 .serv-list{
-    display: flex;
-    gap: 30px;
     list-style: none;
     text-decoration: none;
+    @media screen and (min-width: $tablet){
+        display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    }
 }
 
-.serv-item{
-    display: block;
-    height: 100px;
+.advantege-icon{
+    @media screen and (min-width: $tablet){
+        
+    }
 }
 
 .main-title{
@@ -24,59 +28,19 @@
     margin-right: auto;
 }
 
-.main-text{
-    background-color: var(--secondary-background-color);
-    text-align: center;
-    height: 600px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 200px;
-}
-
 .serv-list .serv-text{
     color: var(--theird-text-color);
 }
 
-.serv-list{
-    @media screen and (min-width: $mobile){
-        width: $mobile;
-        display: block;
-}
-}
-
-.serv-title{
-    @media screen and (min-width: $mobile){
-        width: $mobile;
-        display: flex;
-        justify-content: center; 
-}
-}
-
-.serv-text{
-    @media screen and (min-width: $mobile){
-        width: 451px;
-}
-}
-
-// tablet
-
-.serv-list{
+.serv-title, .serv-text{
+    text-align: center;
     @media screen and (min-width: $tablet){
-        width: $tablet;
+        text-align: start;
+}
+}
+
+.serv-item{
+    @media screen and (min-width: $tablet){
         flex-basis: calc((100% - 30px) / 2);
-}
-}
-
-.serv-title{
-    @media screen and (min-width: $tablet){
-        width: $tablet;
-        display: flex;
-        justify-content: center;
-}
-}
-
-.serv-text{
-    @media screen and (min-width: $tablet){
-        width: 345px;
-}
+    }
 }

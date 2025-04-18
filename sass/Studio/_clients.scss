@@ -16,15 +16,12 @@ background: #F5F4FA;
     margin-bottom: 110px;
     margin-top: 66px;
     color: var(--theird-text-color);
-}
-
-.clients{
     @media screen and (min-width: $mobile){
-        width: $mobile;
         flex-wrap: wrap;
         display: flex;
         margin: 0;
         padding: 0;
+        margin-bottom: 60px;
         // flex-basis: calc((100% - 430px) / 2);
     }
 }
