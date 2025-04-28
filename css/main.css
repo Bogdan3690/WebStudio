@@ -162,30 +162,29 @@ h2 {
   gap: 8px;
 }
 
-@media screen and (max-width: 767px) {
-  .nav-list {
-    display: none;
-  }
-}
 @media screen and (min-width: 768px) {
   .nav-list {
     margin: 0;
     padding: 0;
   }
 }
-
-@media screen and (min-width: 482px) {
-  .header .contacts {
-    display: none;
+@media screen and (max-width: 767px) {
+  .nav-list {
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 2%;
   }
+}
+
+.header .contacts {
+  margin: 0;
+  padding: 0;
 }
 @media screen and (min-width: 768px) {
   .header .contacts {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 0;
-    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -197,6 +196,80 @@ h2 {
 @media screen and (min-width: 768px) {
   .header .link {
     padding: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header .link {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 10px;
+    left: 10px;
+    width: 480px;
+    height: 796px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu .icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu .contacts {
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 2%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu .contacts .link:not(:last-child) .link {
+    color: #757575;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu .contacts .link:last-child .link {
+    color: #2196F3;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu .nav-list {
+    display: block;
+  }
+}
+.menu .nav-list .link-list:not(:last-child) {
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 767px) {
+  .menu .nav-list .link-list:first-child .link {
+    color: #2196F3;
+  }
+}
+.menu .second-social-icon {
+  margin-top: 32px;
+}
+.menu .second-social-icon:hover {
+  color: aqua;
+}
+@media screen and (max-width: 767px) {
+  .menu .social-list {
+    display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -513,7 +586,7 @@ textarea::placeholder {
   background-color: #fff;
 }
 
-.contacts {
+.what-we-do .contacts {
   margin-left: 342px;
   display: flex;
   gap: 50px;

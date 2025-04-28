@@ -37,26 +37,28 @@ margin-right: 93px;
 }
 
 .nav-list{
-    @media screen and (max-width: 767px){
-        display: none;
-    }
     @media screen and (min-width: $tablet){
         margin: 0;
         padding: 0;
+    }
+    @media screen and (max-width: 767px){
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 2%;
     }
 }
 
 .header .contacts{
-    @media screen and (min-width: $mobile){
-        display: none;
-    }
+    margin: 0;
+    padding: 0;
+
     @media screen and (min-width: $tablet){
         display: flex;
         flex-direction: column;
         gap: 10px;
-        margin: 0;
-        padding: 0;
     }
+
+
     @media screen and (min-width: $desktop){
         flex-direction: row;
     }
@@ -66,4 +68,88 @@ margin-right: 93px;
     @media screen and (min-width: $tablet){
         padding: 0;
 }
+
+@media screen and (max-width: 767px){
+    margin: 0;
+    padding: 0;
+}
+}
+
+.header{
+    @media screen and (max-width: 767px){
+        position: relative;
+    }
+}
+
+.menu{
+    @media screen and (max-width: 767px){
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 10px;
+        left: 10px;
+        width: 480px;
+        height: 796px;
+        padding: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .icons{
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+    }
+
+    .contacts{
+    @media screen and (max-width: 767px){
+font-size: 34px;
+line-height: 100%;
+letter-spacing: 2%;
+    }
+    }
+
+    .contacts .link:not(:last-child) .link{
+    @media screen and (max-width: 767px){
+        color: #757575;
+            }
+    }
+
+    .contacts .link:last-child .link{
+    @media screen and (max-width: 767px){
+        color: #2196F3;
+            }
+    }
+
+    .nav-list{ 
+        @media screen and (max-width: 767px){
+            display: block;
+        }
+    }
+
+    .nav-list .link-list:not(:last-child){
+        margin-bottom: 35px;
+    }
+
+    .nav-list .link-list:first-child .link{ 
+        @media screen and (max-width: 767px){
+        color: #2196F3;
+            }
+    }
+
+    .second-social-icon{
+        margin-top: 32px;
+    }
+
+    .second-social-icon:hover{
+        color: aqua;
+
+    }
+
+    .social-list{
+        @media screen and (max-width: 767px){
+            display: flex;
+            justify-content: space-around;
+        }
+    }
 }
