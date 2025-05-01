@@ -152,4 +152,13 @@ letter-spacing: 2%;
             justify-content: space-around;
         }
     }
+
+    .social-list .link{
+    @media screen and (max-width: 767px){
+        color: #2196F3;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 2%;
+    }
+}
 }
