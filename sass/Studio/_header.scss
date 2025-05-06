@@ -14,12 +14,15 @@ margin-right: 93px;
 }
 
 .header-container{
-    display: flex;
-    gap: 25px;
-    align-items: center;
 @media screen and (min-width: $tablet){
     justify-content: space-between;
     padding: 16px 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    }
+    @media screen and (max-width: 767px){
+        padding: 10px 0;
     }
 }
 
@@ -81,7 +84,12 @@ letter-spacing: 2%;
     }
 }
 
+
 .menu{
+    &.is-open{
+        display: flex;
+    }
+
     @media screen and (max-width: 767px){
         position: absolute;
         background-color: rgb(255, 255, 255);
@@ -90,9 +98,9 @@ letter-spacing: 2%;
         width: 480px;
         height: 796px;
         padding: 48px;
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
+        display: none;
     }
 
     .icons{
@@ -125,8 +133,7 @@ letter-spacing: 2%;
         @media screen and (max-width: 767px){
             display: block;
         }
-    }
-
+    }dosvvedaniya
     .nav-list .link-list:not(:last-child){
         margin-bottom: 35px;
     }
@@ -161,4 +168,13 @@ line-height: 22px;
 letter-spacing: 2%;
     }
 }
+}
+
+.menu-button{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 2;
 }

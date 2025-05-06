@@ -137,15 +137,18 @@ h2 {
   color: var(--title-color);
 }
 
-.header-container {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-}
 @media screen and (min-width: 768px) {
   .header-container {
     justify-content: space-between;
     padding: 16px 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-container {
+    padding: 10px 0;
   }
 }
 
@@ -211,6 +214,9 @@ h2 {
   }
 }
 
+.menu.is-open {
+  display: flex;
+}
 @media screen and (max-width: 767px) {
   .menu {
     position: absolute;
@@ -220,9 +226,9 @@ h2 {
     width: 480px;
     height: 796px;
     padding: 48px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
+    display: none;
   }
 }
 @media screen and (max-width: 767px) {
@@ -252,7 +258,7 @@ h2 {
     display: block;
   }
 }
-.menu .nav-list .link-list:not(:last-child) {
+.menu dosvvedaniya .nav-list .link-list:not(:last-child) {
   margin-bottom: 35px;
 }
 @media screen and (max-width: 767px) {
@@ -279,6 +285,15 @@ h2 {
     line-height: 22px;
     letter-spacing: 2%;
   }
+}
+
+.menu-button {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 2;
 }
 
 .main .main-title {
