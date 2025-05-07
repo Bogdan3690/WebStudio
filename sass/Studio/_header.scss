@@ -6,7 +6,6 @@ font-weight: 700;
 color: var(--text-color);
 list-style: none;
 text-decoration: none;
-margin-right: 93px;
 }
 
 .logo span{
@@ -18,7 +17,6 @@ margin-right: 93px;
     justify-content: space-between;
     padding: 16px 0;
     display: flex;
-    gap: 25px;
     align-items: center;
     }
     @media screen and (max-width: 767px){
@@ -55,13 +53,6 @@ letter-spacing: 2%;
     margin: 0;
     padding: 0;
 
-    @media screen and (min-width: $tablet){
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-
     @media screen and (min-width: $desktop){
         flex-direction: row;
     }
@@ -84,6 +75,15 @@ letter-spacing: 2%;
     }
 }
 
+.first-social-icon{
+    @media screen and (min-width: $tablet){
+        margin-bottom: 10px;
+    }
+    @media screen and (min-width: $desktop){
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+}
 
 .menu{
     &.is-open{
@@ -103,6 +103,12 @@ letter-spacing: 2%;
         display: none;
     }
 
+    @media screen and (min-width: $tablet){
+        display: flex;
+        gap: 106px;
+        align-items: center;
+    }
+
     .icons{
     @media screen and (max-width: 767px){
         display: none;
@@ -114,6 +120,10 @@ letter-spacing: 2%;
 font-size: 34px;
 line-height: 100%;
 letter-spacing: 2%;
+    }
+    
+    @media screen and (min-width: $desktop){
+        display: flex;
     }
     }
 
@@ -133,19 +143,12 @@ letter-spacing: 2%;
         @media screen and (max-width: 767px){
             display: block;
         }
-    }dosvvedaniya
-    .nav-list .link-list:not(:last-child){
-        margin-bottom: 35px;
     }
 
     .nav-list .link-list:first-child .link{ 
         @media screen and (max-width: 767px){
         color: #2196F3;
             }
-    }
-
-    .second-social-icon{
-        margin-top: 32px;
     }
 
     .second-social-icon:hover{
@@ -157,6 +160,9 @@ letter-spacing: 2%;
         @media screen and (max-width: 767px){
             display: flex;
             justify-content: space-around;
+        }
+        @media screen and (min-width: $tablet){
+            display: none;
         }
     }
 
@@ -177,4 +183,31 @@ letter-spacing: 2%;
     top: 10px;
     right: 15px;
     z-index: 2;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    @media screen and (min-width: $tablet){
+        display: none;
+    }
+}
+
+.menu-button.is-open{
+    border: 1px solid #0000001A;
+    border-radius: 50%;
+}
+
+.menu-button.is-open .icon-open{
+    display: none;
+}
+
+.menu-button .icon-open{
+    display: block;
+}
+
+.menu-button.is-open .icon-close{
+    display: block;
+}
+
+.menu-button .icon-close{
+    display: none;
 }

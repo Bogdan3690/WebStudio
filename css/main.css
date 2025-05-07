@@ -130,7 +130,6 @@ h2 {
   color: var(--text-color);
   list-style: none;
   text-decoration: none;
-  margin-right: 93px;
 }
 
 .logo span {
@@ -142,7 +141,6 @@ h2 {
     justify-content: space-between;
     padding: 16px 0;
     display: flex;
-    gap: 25px;
     align-items: center;
   }
 }
@@ -183,13 +181,6 @@ h2 {
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 768px) {
-  .header .contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .header .contacts {
     flex-direction: row;
@@ -214,6 +205,18 @@ h2 {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .first-social-icon {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .first-social-icon {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
 .menu.is-open {
   display: flex;
 }
@@ -231,6 +234,13 @@ h2 {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    gap: 106px;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 767px) {
   .menu .icons {
     display: none;
@@ -241,6 +251,11 @@ h2 {
     font-size: 34px;
     line-height: 100%;
     letter-spacing: 2%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu .contacts {
+    display: flex;
   }
 }
 @media screen and (max-width: 767px) {
@@ -258,16 +273,10 @@ h2 {
     display: block;
   }
 }
-.menu dosvvedaniya .nav-list .link-list:not(:last-child) {
-  margin-bottom: 35px;
-}
 @media screen and (max-width: 767px) {
   .menu .nav-list .link-list:first-child .link {
     color: #2196F3;
   }
-}
-.menu .second-social-icon {
-  margin-top: 32px;
 }
 .menu .second-social-icon:hover {
   color: aqua;
@@ -276,6 +285,11 @@ h2 {
   .menu .social-list {
     display: flex;
     justify-content: space-around;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu .social-list {
+    display: none;
   }
 }
 @media screen and (max-width: 767px) {
@@ -294,6 +308,35 @@ h2 {
   top: 10px;
   right: 15px;
   z-index: 2;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.menu-button.is-open {
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 50%;
+}
+
+.menu-button.is-open .icon-open {
+  display: none;
+}
+
+.menu-button .icon-open {
+  display: block;
+}
+
+.menu-button.is-open .icon-close {
+  display: block;
+}
+
+.menu-button .icon-close {
+  display: none;
 }
 
 .main .main-title {
