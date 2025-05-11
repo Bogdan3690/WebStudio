@@ -607,6 +607,11 @@ textarea::placeholder {
     flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 1200px) {
+  .serv-list {
+    flex-wrap: nowrap;
+  }
+}
 
 .main-title {
   color: var(--main-background-color);
@@ -681,6 +686,11 @@ textarea::placeholder {
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-section {
+    flex-wrap: nowrap;
   }
 }
 
@@ -779,6 +789,11 @@ textarea::placeholder {
     flex-basis: calc((100% - 30px) / 2);
   }
 }
+@media screen and (min-width: 1200px) {
+  .team .container {
+    width: 1200px;
+  }
+}
 
 .advantege-icon {
   width: 270px;
@@ -806,6 +821,11 @@ textarea::placeholder {
     margin: 0;
     padding: 0;
     margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 482px) and (min-width: 1200px) {
+  .clients {
+    flex-wrap: nowrap;
   }
 }
 

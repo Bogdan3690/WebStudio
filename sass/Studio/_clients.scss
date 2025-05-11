@@ -23,5 +23,9 @@ background: #F5F4FA;
         padding: 0;
         margin-bottom: 60px;
         // flex-basis: calc((100% - 430px) / 2);
+        
+    @media screen and (min-width: $desktop){
+        flex-wrap: nowrap;
+    }
     }
 }

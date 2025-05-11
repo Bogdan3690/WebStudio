@@ -10,6 +10,9 @@
     justify-content: center;
     flex-wrap: wrap;
     }
+    @media screen and (min-width: $desktop){
+        flex-wrap: nowrap;
+    }
 }
 
 .team-section li{
@@ -66,7 +69,6 @@ flex-shrink: 0;
     border-radius: 50%;
 }
 
-
 .brand{
     display: inline-flex;
     justify-content: center;
@@ -106,5 +108,8 @@ border: 1px solid #2196F3;
 .team .container{
     @media screen and (min-width: $tablet){
         flex-basis: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: $desktop){
+        width: $desktop;
     }
 }
