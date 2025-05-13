@@ -1,6 +1,10 @@
 .team .container{
-    background-color: var(--theird-background-color);
     margin-bottom: 154px;
+}
+
+.team{
+    background-color: var(--theird-background-color);
+    padding: 90px 0;
 }
 
 .team-section{
@@ -19,6 +23,13 @@
     @media screen and (min-width: $tablet){
         flex-basis: calc((100% - 30px) / 2);
     }
+    background-color: #fff;
+    box-shadow: 0px 2px 1px 0px #00000033;
+
+box-shadow: 0px 1px 1px 0px #00000024;
+
+box-shadow: 0px 1px 3px 0px #0000001F;
+
 }
 
 .our-team{

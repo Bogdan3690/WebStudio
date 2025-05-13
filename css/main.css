@@ -18,6 +18,12 @@ body {
   padding-right: 15px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul, p, h1, h2, h3 {
   margin: 0;
   padding: 0;
@@ -676,8 +682,12 @@ textarea::placeholder {
 }
 
 .team .container {
-  background-color: var(--theird-background-color);
   margin-bottom: 154px;
+}
+
+.team {
+  background-color: var(--theird-background-color);
+  padding: 90px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -694,6 +704,12 @@ textarea::placeholder {
   }
 }
 
+.team-section li {
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1411764706);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275);
+}
 @media screen and (min-width: 768px) {
   .team-section li {
     flex-basis: calc((100% - 30px) / 2);
